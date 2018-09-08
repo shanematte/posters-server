@@ -1,0 +1,12 @@
+{
+	"database":{
+		"db":"postersmaindb",
+		"user":"posteradminshane",
+		"password":"sadpc30Yups35Jn"
+	},
+	"session":{
+		"keys":"dsf046of"
+	},
+	"DEFAULT_PORT":8098,
+	"SSL_PORT":8053
+}

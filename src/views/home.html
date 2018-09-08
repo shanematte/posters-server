@@ -1,0 +1,24 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+<div class="main-container">
+
+	<header>
+		
+		<div class="slider">
+			<div class="slide slide-active" style="background: url(/media/header-1.jpeg) center / cover no-repeat;"></div>
+			<div class="slide" style="background: url(/media/header-2.jpeg) center / cover no-repeat;"></div>
+		</div>
+
+		{% include 'blocks/nav.html' %}
+
+		<section>
+			<h1>Выбери любимый постер</h1>
+		</section>
+
+	</header>
+
+</div>
+
+{% endblock %}

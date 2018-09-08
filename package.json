@@ -1,0 +1,53 @@
+{
+  "name": "worklabel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index",
+    "dev": "nodemon --inspect --exec 'npm start'",
+    "server:start": "NODE_ENV=production pm2 start ./start.js",
+    "server:restart": "pm2 restart ./start.js",
+    "server:stop": "pm2 stop ./start.js"
+  },
+  "author": "Shane Matte",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "config": "^1.30.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-force-ssl": "0.0.5",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-passport": "^4.0.1",
+    "koa-robotstxt": "^1.0.10",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "koa-static": "^4.0.2",
+    "moment": "^2.22.1",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "passport-vkontakte": "^0.3.2",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "pinterest-api": "^1.1.4",
+    "request-ip": "^2.0.2",
+    "robots.txt": "^1.1.0",
+    "sequelize": "^4.37.7",
+    "sequelize-paginate": "^1.1.2",
+    "xml-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.17.4"
+  }
+}

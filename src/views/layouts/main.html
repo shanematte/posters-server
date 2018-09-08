@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="generator" content="koa 2.0.0" />
+
+	<title>Poster picture. {{ title }}</title>
+	<meta name="description" content="{{ description }}"/>
+	<meta name="keywords" content="{{ keywords }}" />
+	<meta http-equiv="content-language" content="{{ language }}" />
+	<meta name="google" content="notranslate" />
+	<meta http-equiv="refresh" content="530">
+	<meta name="author" content="Shane matte devshanematte@gmail.com">
+	<meta name="robots" content="index, nofollow" />
+	<meta name="copyright" lang="ru" content="worklabel" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="/css/toastr.min.css">
+	<link rel="stylesheet" href="/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body onload="loadScripts()">
+	{% block content %}
+	{% endblock %}
+	<script src="/js/app.js"></script>
+</body>
+</html>
